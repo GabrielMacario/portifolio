@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between; 
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+    width: 80%;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.project {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.project.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-data {
+    margin: 20px;
+}
+
+.project-data p {
+    margin-top: 50px;
+}
+
+#name-project {
+    display: inline-block;
+    font-size: 20px;
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+#name-project:hover {
+    transform: scale(1.05);
+    color: #3a3737;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    height: auto;
+    width: 1000;
+    max-width: 800px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-nav {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-height: 75vh;
+    width: 1000px;
+    margin: 0 auto;
+}
+.contacts-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contacts-nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 18px;
+}
+.contacts-nav img {
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+}
+.contacts-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos gerais para telas menores */
+@media (max-width: 768px) {
+    body {
+        text-align: left;
+    }
+
+    header, footer {
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .project {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+        width: 90%;
+        padding: 15px;
+    }
+
+    .project-data {
+        margin: 10px 0;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-gallery img {
+        width: 100%; 
+        max-width: 600px; 
+    }
+    
+
+    .contacts-nav {
+        width: 90%;
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .contacts-nav li {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacts-nav img {
+        margin: 0 0 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .image-gallery img {
+        width: 100%;
+        max-width: 90%; /* Mantém a imagem maior que o texto */
+    }
+
+    .contacts-nav {
+        width: 100%;
+        padding: 15px;
+    }
+}

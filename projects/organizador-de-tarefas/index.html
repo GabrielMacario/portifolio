@@ -1,0 +1,134 @@
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet"
+  />
+
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+  <script>
+    dayjs.locale("pt-br");
+  </script>
+
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <div id="app">
+    <form onsubmit="salvarAtividade(event)" class="modal">
+      <div id="place" class="card-bg">
+        <svg
+          fill="#27272A"
+          width="30px"
+          height="30px"
+          viewBox="2 2 23 23"
+          xmlns="http://www.w3.org/2000/svg"
+          class="cf-icon-svg"
+        >
+          <path
+            d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z"
+            stroke="#535355"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12 12C13.1046 12 14 11.1046 14 10C14 8.89543 13.1046 8 12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12Z"
+            stroke="#535355"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        São Paulo, SP
+      </div>
+
+      <div class="fields">
+        <div class="field-wrapper">
+          <svg
+            fill="#535355"
+            width="30px"
+            height="30px"
+            viewBox="-3.5 0 19 19"
+            xmlns="http://www.w3.org/2000/svg"
+            class="cf-icon-svg"
+            transform="rotate(-30)"
+          >
+            <path
+              d="M10.05 3.828a1.112 1.112 0 0 1 1.11 1.108v10.562a1.112 1.112 0 0 1-1.11 1.108h-8.1a1.112 1.112 0 0 1-1.11-1.108V4.936a1.112 1.112 0 0 1 1.11-1.108h.415v1.108h-.414l-.002.002v10.558l.002.002h8.098l.002-.002V4.938l-.002-.002h-.414V3.828h.416zm-.98 4.076H2.82v1.108h6.25zm0 2.337H2.82v1.108h6.25zm0 2.337H2.82v1.108h6.25zm-.543-8.935v1.25a.476.476 0 0 1-.475.476H3.948a.476.476 0 0 1-.475-.475v-1.25a.476.476 0 0 1 .475-.476h.697V1.87a.476.476 0 0 1 .475-.475h1.76a.476.476 0 0 1 .475.475v1.3h.697a.476.476 0 0 1 .475.474zM6.55 2.67a.554.554 0 1 0-.554.554.554.554 0 0 0 .554-.554z"
+            />
+          </svg>
+
+          <input
+            type="text"
+            placeholder="Qual a atividade?"
+            name="atividade"
+            required
+          />
+        </div>
+
+        <div class="field-wrapper">
+          <svg
+            fill="#27272A"
+            width="30px"
+            height="30px"
+            viewBox="2 2 23 23"
+            xmlns="http://www.w3.org/2000/svg"
+            class="cf-icon-svg"
+          >
+            <path
+              d="M6.94028 2C7.35614 2 7.69326 2.32421 7.69326 2.72414V4.18487C8.36117 4.17241 9.10983 4.17241 9.95219 4.17241H13.9681C14.8104 4.17241 15.5591 4.17241 16.227 4.18487V2.72414C16.227 2.32421 16.5641 2 16.98 2C17.3958 2 17.733 2.32421 17.733 2.72414V4.24894C19.178 4.36022 20.1267 4.63333 20.8236 5.30359C21.5206 5.97385 21.8046 6.88616 21.9203 8.27586L22 9H2.92456H2V8.27586C2.11571 6.88616 2.3997 5.97385 3.09665 5.30359C3.79361 4.63333 4.74226 4.36022 6.1873 4.24894V2.72414C6.1873 2.32421 6.52442 2 6.94028 2Z"
+              fill="#535355"
+            />
+            <path
+              opacity="0.5"
+              d="M21.9995 14.0001V12.0001C21.9995 11.161 21.9963 9.66527 21.9834 9H2.00917C1.99626 9.66527 1.99953 11.161 1.99953 12.0001V14.0001C1.99953 17.7713 1.99953 19.6569 3.1711 20.8285C4.34267 22.0001 6.22829 22.0001 9.99953 22.0001H13.9995C17.7708 22.0001 19.6564 22.0001 20.828 20.8285C21.9995 19.6569 21.9995 17.7713 21.9995 14.0001Z"
+              fill="#535355"
+            />
+          </svg>
+          <select name="dia">
+            <option value="2024-03-01">01 de fevereiro</option>
+          </select>
+        </div>
+
+        <div class="field-wrapper">
+          <svg
+            width="30px"
+            height="30px"
+            viewBox="2 1 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              opacity="0.5"
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              fill="#535355"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12 7.25C12.4142 7.25 12.75 7.58579 12.75 8V11.6893L15.0303 13.9697C15.3232 14.2626 15.3232 14.7374 15.0303 15.0303C14.7374 15.3232 14.2626 15.3232 13.9697 15.0303L11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12V8C11.25 7.58579 11.5858 7.25 12 7.25Z"
+              fill="#535355"
+            />
+          </svg>
+          <select name="hora">
+            <option value="10:30">10:30</option>
+          </select>
+        </div>
+      </div>
+
+      <button>Salvar atividade</button>
+    </form>
+
+    <main>
+      <h1>Atividades</h1>
+      <section></section>
+    </main>
+  </div>
+
+  <link rel="stylesheet" href="Aula01.css" />
+  <script src="Aula01.js"></script>
+</html>
