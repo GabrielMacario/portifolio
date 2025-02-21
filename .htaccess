@@ -4,6 +4,5 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
-# Redireciona a página inicial para /portifólio/
-RewriteCond %{REQUEST_URI} ^/$
-RewriteRule ^$ /portifólio/ [L,R=301]
+# Garante que a página inicial carregue index.php
+DirectoryIndex index.php
