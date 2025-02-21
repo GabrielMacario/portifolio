@@ -1,3 +1,9 @@
 RewriteEngine On
+
+# Redireciona HTTP para HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Redireciona a página inicial para /portifólio/
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ /portifólio/ [L,R=301]
