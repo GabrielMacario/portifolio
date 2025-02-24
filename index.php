@@ -15,11 +15,11 @@
                 <div class="project-data">
                     <a href="https://www.consignadosantander.com.br/#/" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Consignado Santander</a>
                         <p>
-                            Fui o QA responsável pelas demandas da aplicação, desde testes de feature, automatização de teste até a resolução do bug.<br>
+                            Fui o QA responsável pelas demandas da aplicação, desde testes de feature, automatização de teste até a resolução do bug.🪲<br>
                             <br>
-                            Nesse projeto, implementei os testes automatizados, diminuindo a porcentagem de erros e a aumentando a praticidade.<br>
+                            Nesse projeto, implementei os testes automatizados, diminuindo a porcentagem de erros e a aumentando a praticidade.📈<br>
                             <br>
-                            Também realizei diversos tipos de testes automatizados, validando os dados enviados com os dados do banco.
+                            Também realizei diversos tipos de testes automatizados, validando os dados enviados com os dados do banco💻.
                         </p>
                 </div>
                 <div class="image-gallery">
@@ -32,9 +32,9 @@
                         <p>
                         Atendia a demanda de acordo com o dia a dia.<br>
                         <br>
-                        Desde a resolução de chamados, testes de feature até mesmo a resolução de bugs.<br>
+                        Desde a resolução de chamados, testes de feature até mesmo a resolução de bugs.🪲<br>
                         <br>
-                        Nesse projeto, implementei os testes automatizados e realizei a criação de testes base, tais como: login na plataforma e verificação de dados.
+                        Nesse projeto, implementei os testes automatizados e realizei a criação de testes base, tais como: login na plataforma e verificação de dados💻.
                         </p>
                 </div>
                 <div class="image-gallery">
@@ -46,6 +46,7 @@
                     <a href="<?= $BASE_URL ?>projects/agenda" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Agenda</a>
                     <p>
                         📖 Uma aplicação simples para gerenciar contatos, permitindo: <br>
+                        <br>
                         ✅ Adicionar novos contatos <br>
                         ✅ Atualizar informações existentes <br>
                         ✅ Excluir contatos quando necessário <br>
@@ -86,8 +87,9 @@
                     <a href="<?= $BASE_URL ?>projects/calculadora" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Calculadora</a>
                     <p>
                         A calculadora apresenta os seguintes recursos:<br>
-                        ✅ Interface moderna e responsiva<br>✅
-                        Operações matemáticas básicas<br>
+                        <br>
+                        ✅ Interface moderna e responsiva<br>
+                        ✅Operações matemáticas básicas<br>
                         ✅ Suporte a teclado para melhor usabilidade<br>
                         ✅ Exibição dinâmica dos cálculos em tempo real
                     </p>
@@ -111,6 +113,7 @@
                     <p>
                         Um aplicativo simples e eficiente para ajudar na organização do dia a dia. <br> 
                         🔹 Funcionalidades: <br>
+                        <br>
                         ✅ Criar e gerenciar tarefas <br>
                         ✅ Atualizar e editar tarefas existentes <br>
                         ✅ Marcar tarefas como concluídas <br>
