@@ -12,6 +12,17 @@ header, footer {
     padding: 15px;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.name-add{
+    display: flex;
+    justify-content: right;
+    margin-top: 60px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -169,6 +180,18 @@ nav ul li a {
     header, footer {
         text-align: center;
         padding: 10px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #linkedin-ico {
+        width: 200px; /* Defina a largura desejada */
+        height: auto; /* Mantém a proporção */
+        transform: scale(0.8); /* Reduz o tamanho em 20% */
+        transform-origin: top left; /* Mantém o alinhamento no canto superior esquerdo */
     }
 
     nav ul {
