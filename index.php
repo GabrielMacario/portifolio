@@ -14,7 +14,13 @@
             <div class="project">
                 <div class="project-data">
                     <a href="https://www.consignadosantander.com.br/#/" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Consignado Santander</a>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit incidunt vel veritatis nobis officia adipisci tenetur quidem. Velit distinctio placeat praesentium? Consequatur perferendis enim possimus mollitia sequi tempora cum vero.</p>
+                        <p>
+                            Fui o QA responsável pelas demandas da aplicação, desde testes de feature, automatização de teste até a resolução do bug.<br>
+
+                            Nesse projeto, implementei os testes automatizados, diminuindo a porcentagem de erros e a aumentando a praticidade.<br>
+
+                            Também realizei diversos tipos de testes automatizados, validando os dados enviados com os dados do banco.
+                        </p>
                 </div>
                 <div class="image-gallery">
                     <img src="projects\images\consignado-santander\image.png" alt="Projeto Santander - Login Santander">
@@ -23,7 +29,13 @@
             <div class="project">
                 <div class="project-data">
                     <a href="https://gooroocredito.com.br/" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Gooroo Crédito</a>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit incidunt vel veritatis nobis officia adipisci tenetur quidem. Velit distinctio placeat praesentium? Consequatur perferendis enim possimus mollitia sequi tempora cum vero.</p>
+                        <p>
+                        Atendia a demanda de acordo com o dia a dia.<br>
+
+                        Desde a resolução de chamados, testes de feature até mesmo a resolução de bugs.<br>
+
+                        Nesse projeto, implementei os testes automatizados e realizei a criação de testes base, tais como: login na plataforma e verificação de dados.
+                        </p>
                 </div>
                 <div class="image-gallery">
                     <img src="projects\images\gooroo\image.png" alt="Projeto Santander - Login Santander">
