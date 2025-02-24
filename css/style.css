@@ -172,7 +172,7 @@ nav ul li a {
 }
 
 /* Estilos gerais para telas menores */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     body {
         text-align: left;
     }
@@ -182,27 +182,9 @@ nav ul li a {
         padding: 10px;
     }
 
-    header {
+    .name-add {
         display: flex;
-        justify-content: center;
-    }
-    
-    #linkedin-ico {
-        width: 200px; /* Defina a largura desejada */
-        height: auto; /* Mantém a proporção */
-        transform: scale(0.8); /* Reduz o tamanho em 20% */
-        transform-origin: top left; /* Mantém o alinhamento no canto superior esquerdo */
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-
-    nav ul li {
-        margin: 10px 0;
+        text-align: center;
     }
 
     .project {
@@ -232,6 +214,7 @@ nav ul li a {
         width: 90%;
         min-height: auto;
         padding: 20px;
+        padding: 15px;
     }
 
     .contacts-nav li {
@@ -242,9 +225,6 @@ nav ul li a {
     .contacts-nav img {
         margin: 0 0 10px 0;
     }
-}
-
-@media (max-width: 480px) {
     .project {
         width: 100%;
         padding: 10px;
@@ -253,10 +233,5 @@ nav ul li a {
     .image-gallery img {
         width: 100%;
         max-width: 90%; /* Mantém a imagem maior que o texto */
-    }
-
-    .contacts-nav {
-        width: 100%;
-        padding: 15px;
     }
 }
