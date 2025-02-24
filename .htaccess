@@ -1,8 +1,10 @@
 RewriteEngine On
 
 # Redireciona HTTP para HTTPS
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
 # Garante que a página inicial carregue index.php
 DirectoryIndex index.php
+
+SetEnv ENVIRONMENT local

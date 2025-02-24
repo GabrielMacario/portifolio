@@ -7,10 +7,28 @@
 
 <main>
     <h1>Bem-vindo ao meu portfólio</h1>
-    <p>Sou QA e Desenvolvedor, confira alguns dos meus projetos abaixo.</p>
+    <p><em>Sou QA e Desenvolvedor, confira alguns dos meus projetos pessoais e projetos em que participei abaixo.</em></p>
     <section id="projects">
         <h2>Projetos</h2>
         <div class="project-list">
+            <div class="project">
+                <div class="project-data">
+                    <a href="https://www.consignadosantander.com.br/#/" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Consignado Santander</a>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit incidunt vel veritatis nobis officia adipisci tenetur quidem. Velit distinctio placeat praesentium? Consequatur perferendis enim possimus mollitia sequi tempora cum vero.</p>
+                </div>
+                <div class="image-gallery">
+                    <img src="projects\images\consignado-santander\image.png" alt="Projeto Santander - Login Santander">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-data">
+                    <a href="https://gooroocredito.com.br/" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Gooroo Crédito</a>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit incidunt vel veritatis nobis officia adipisci tenetur quidem. Velit distinctio placeat praesentium? Consequatur perferendis enim possimus mollitia sequi tempora cum vero.</p>
+                </div>
+                <div class="image-gallery">
+                    <img src="projects\images\gooroo\image.png" alt="Projeto Santander - Login Santander">
+                </div>
+            </div>
             <div class="project">
                 <div class="project-data">
                     <a href="<?= $BASE_URL ?>projects/agenda" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Agenda</a>
