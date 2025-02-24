@@ -7,7 +7,7 @@
 
 <main>
     <h1>Bem-vindo ao meu portfólio</h1>
-    <p><em>Sou QA e Desenvolvedor, confira alguns dos meus projetos pessoais e projetos em que participei abaixo.</em></p>
+    <p><em>Sou QA e Desenvolvedor, confira alguns dos meus projetos pessoais e projetos em que participei.</em></p>
     <section id="projects">
         <h2>Projetos</h2>
         <div class="project-list">
