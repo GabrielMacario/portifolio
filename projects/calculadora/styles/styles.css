@@ -15,7 +15,8 @@ html {
 body {
   color: #6cacc5;
   display: inline-block;
-  font: 300 18px/1.6 "Source Sans Pro", sans-serif;
+  font:    sans-serif;
+  font-size: 20px;
   margin: 0;
   padding: 5em 0 2em;
   text-align: center;
@@ -194,17 +195,32 @@ button:focus::after {
   }
 }
 
-@media (min-width: 420px) {
-  .calculator {
-    width: 12em;
+@media (max-width: 480px) {
+  
+  body {
+    font-size: 25px; /* Diminui a fonte no mobile */
+    font: sans-serif;
   }
+
+  .calculo {
+    width: 90%; /* Faz a calculadora se ajustar à tela */
+    max-width: 300px; /* Limita para não ficar muito grande */
+  }
+
   .viewer {
-    width: 8.5em;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
   }
+
   button {
-    margin: 0.5em;
+    width: 3em; /* Deixa os botões maiores */
+    height: 3em;
+    font-size: 22px;
   }
 }
+  
+
 
 .opr:focus::after {
   content: attr(data-num);
