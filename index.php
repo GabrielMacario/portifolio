@@ -15,11 +15,13 @@
                 <div class="project-data">
                     <a href="https://www.consignadosantander.com.br/#/" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Consignado Santander</a>
                         <p>
-                            Fui o QA responsável pelas demandas da aplicação, desde testes de feature, automatização de teste até a resolução do bug.🪲<br>
+                            Fui o QA responsável pelas demandas da aplicação, desde testes de feature, automatização de teste, resolução do bug e desenvolvimento da aplicação.🪲<br>
                             <br>
-                            Nesse projeto, implementei os testes automatizados, diminuindo a porcentagem de erros e a aumentando a praticidade.📈<br>
+                            Nesse projeto, implementei os testes automatizados e integrei na pipeline, diminuindo a porcentagem de erros em quase 90% e aumentando a praticidade.📈<br>
                             <br>
-                            Também realizei diversos tipos de testes automatizados, validando os dados enviados com os dados do banco💻.
+                            Também realizei diversos tipos de testes automatizados utilizando Cypress, validando os dados enviados com os dados do banco.💻<br>
+                            <br>
+                            Tecnologias utilizadas: PHP, Node.js, Html, Css, MySQL, AWS.
                         </p>
                 </div>
                 <div class="image-gallery">
@@ -30,11 +32,11 @@
                 <div class="project-data">
                     <a href="https://gooroocredito.com.br/" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Gooroo Crédito</a>
                         <p>
-                        Atendia a demanda de acordo com o dia a dia.<br>
+                        Realizava testes de feature, API, analise de bugs e testes automatizados.<br>
                         <br>
-                        Desde a resolução de chamados, testes de feature até mesmo a resolução de bugs.🪲<br>
+                        Nesse projeto, implementei os testes automatizados e realizei a criação de testes base, tais como: login na plataforma e verificação de dados💻.<br>
                         <br>
-                        Nesse projeto, implementei os testes automatizados e realizei a criação de testes base, tais como: login na plataforma e verificação de dados💻.
+                        Tecnologias utilizadas: Cypress, Node.js, Vue.js, PostgreSql, Huawei.
                         </p>
                 </div>
                 <div class="image-gallery">
@@ -45,12 +47,14 @@
                 <div class="project-data">
                     <a href="<?= $BASE_URL ?>projects/agenda" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Agenda</a>
                     <p>
+                        🚀 Projeto realizado para praticar Tecnologias.<br>
+                        🚀 Tecnologias utilizadas: CSS, HTML, PHP, MySQL, Bootstrap.<br>
+                        <br>
                         📖 Uma aplicação simples para gerenciar contatos, permitindo: <br>
                         <br>
                         ✅ Adicionar novos contatos <br>
                         ✅ Atualizar informações existentes <br>
                         ✅ Excluir contatos quando necessário <br>
-                        🚀 Tecnologias utilizadas: CSS, HTML, PHP, MySQL, Bootstrap.
                     </p>
                 </div>
                 <div class="image-gallery">
@@ -60,7 +64,11 @@
             <div class="project">
                 <div class="project-data">
                     <a href="<?= $BASE_URL ?>projects/te-amo" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Te amo</a>
-                    <p>Esse projeto é uma brincadeira interativa cheia de emoção!<br>
+                    <p>
+                        🚀 Projeto realizado para praticar Tecnologias.<br>
+                        🚀 Tecnologias utilizadas: CSS, HTML, PHP, JavaScript.<br>
+                        <br>
+                        Esse projeto é uma brincadeira interativa cheia de emoção!<br>
                         Quando a pergunta "Te amo?" aparece, você tem duas opções:<br>
                         <br>
                         Se responder "não", o sistema foge com uma animação engraçada 🏃‍♂️💨, deixando uma sensação de rejeição!<br>
@@ -75,6 +83,9 @@
                 <div class="project-data">
                     <a href="<?= $BASE_URL ?>projects/blog-codar" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Blog</a>
                     <p>
+                        🚀 Projeto realizado para praticar Tecnologias.<br>
+                        🚀 Tecnologias utilizadas: CSS, HTML, PHP, Bootstrap.<br>
+                        <br>
                         Um blog dinâmico e responsivo para compartilhar conteúdos, artigos e notícias de tecnologia. ✨
                     </p>
                 </div>
@@ -86,6 +97,9 @@
                 <div class="project-data">
                     <a href="<?= $BASE_URL ?>projects/calculadora" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Calculadora</a>
                     <p>
+                        🚀 Projeto realizado para praticar Tecnologias.<br>
+                        🚀 Tecnologias utilizadas: CSS, HTML, JavaScript.<br>
+                        <br>
                         A calculadora apresenta os seguintes recursos:<br>
                         <br>
                         ✅ Interface moderna e responsiva<br>
@@ -111,6 +125,9 @@
                 <div class="project-data">
                     <a href="<?= $BASE_URL ?>projects/organizador-de-tarefas" class="project-card" id="name-project" target="_blank"><img src="img/share.png" alt="Ícone de redirect">Organizador de tarefas</a>
                     <p>
+                        🚀 Projeto realizado para praticar Tecnologias.<br>
+                        🚀 Tecnologias utilizadas: CSS, HTML, JavaScript<br>
+                        <br>
                         Um aplicativo simples e eficiente para ajudar na organização do dia a dia. <br> 
                         🔹 Funcionalidades: <br>
                         <br>
